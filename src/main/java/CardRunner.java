@@ -22,18 +22,5 @@ public class CardRunner {
 
         System.out.println("Billy: " + cardBilly);
         System.out.println("Brian: " + cardBrian);
-
-        // cardBilly.payGourmet();
-        // cardBilly.payGourmet();
-        // cardBilly.payGourmet();
-        // cardBilly.payGourmet();
-        // cardBilly.payGourmet();
-        // cardBilly.payGourmet();
-        // cardBilly.loadMoney(10);
-        // cardBilly.loadMoney(-10);
-        // cardBilly.loadMoney(10);
-        // cardBilly.loadMoney(140);
-
-        // System.out.println(cardBilly);
     }
 }
