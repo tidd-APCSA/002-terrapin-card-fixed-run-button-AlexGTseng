@@ -8,16 +8,12 @@ public class TerrapinCard {
   public void payEconomical() {
     if(balance >= 2.50) {
       balance -= 2.50;
-    } else {
-      balance -= 0;
     }
   }
 
   public void payGourmet() {
     if(balance >= 4.00) {
       balance -= 4.00;
-    } else {
-      balance -= 0;
     }
   }
 
