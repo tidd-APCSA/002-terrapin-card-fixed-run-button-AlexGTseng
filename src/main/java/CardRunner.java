@@ -2,38 +2,38 @@ public class CardRunner {
     public static void main(String args[]){
         // ☕
         TerrapinCard cardBilly = new TerrapinCard(20);
-        // TerrapinCard cardBrian = new TerrapinCard(30);
+        TerrapinCard cardBrian = new TerrapinCard(30);
+
+        cardBilly.payGourmet();
+        cardBrian.payEconomical();
+
+        System.out.println("Billy: " + cardBilly);
+        System.out.println("Brian: " + cardBrian);
+
+        cardBilly.loadMoney(20);
+        cardBrian.payGourmet();
+
+        System.out.println("Billy: " + cardBilly);
+        System.out.println("Brian: " + cardBrian);
+
+        cardBilly.payEconomical();
+        cardBilly.payEconomical();
+        cardBrian.loadMoney(50);
+
+        System.out.println("Billy: " + cardBilly);
+        System.out.println("Brian: " + cardBrian);
 
         // cardBilly.payGourmet();
-        // cardBrian.payEconomical();
+        // cardBilly.payGourmet();
+        // cardBilly.payGourmet();
+        // cardBilly.payGourmet();
+        // cardBilly.payGourmet();
+        // cardBilly.payGourmet();
+        // cardBilly.loadMoney(10);
+        // cardBilly.loadMoney(-10);
+        // cardBilly.loadMoney(10);
+        // cardBilly.loadMoney(140);
 
-        // System.out.println("Billy: " + cardBilly);
-        // System.out.println("Brian: " + cardBrian);
-
-        // cardBilly.loadMoney(20);
-        // cardBrian.payGourmet();
-
-        // System.out.println("Billy: " + cardBilly);
-        // System.out.println("Brian: " + cardBrian);
-
-        // cardBilly.payEconomical();
-        // cardBilly.payEconomical();
-        // cardBrian.loadMoney(50);
-
-        // System.out.println("Billy: " + cardBilly);
-        // System.out.println("Brian: " + cardBrian);
-
-        cardBilly.payGourmet();
-        cardBilly.payGourmet();
-        cardBilly.payGourmet();
-        cardBilly.payGourmet();
-        cardBilly.payGourmet();
-        cardBilly.payGourmet();
-        cardBilly.loadMoney(10);
-        cardBilly.loadMoney(-10);
-        cardBilly.loadMoney(10);
-        cardBilly.loadMoney(140);
-
-        System.out.println(cardBilly);
+        // System.out.println(cardBilly);
     }
 }
