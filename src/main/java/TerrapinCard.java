@@ -5,6 +5,10 @@ public class TerrapinCard {
     balance = balanceAtStart;
   }
 
+  public double getBalance() {
+    return balance;
+  }
+
   public void payEconomical() {
     if(balance >= 2.50) {
       balance -= 2.50;
